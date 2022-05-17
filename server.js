@@ -1,5 +1,4 @@
 const express = require('express');
-const res = require('express/lib/response');
 const { animals } = require('./data/animals');
 
 const PORT = process.env.PORT || 3001;
